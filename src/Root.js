@@ -4,7 +4,7 @@ import {
     Routes,
     Route
 } from "react-router-dom";
-import SideBarMain from "./pages/SideBarMain/SideBarMain";
+import SideBarMainPage from "./pages/SideBarMain/SideBarMain";
 
 const Root = () => {
 
@@ -14,7 +14,7 @@ const Root = () => {
         <Router>
             <Routes>
 
-                <Route path="/" element={ <SideBarMain /> } />
+                <Route path="/" element={ <SideBarMainPage /> } />
             </Routes>
         </Router>
 
