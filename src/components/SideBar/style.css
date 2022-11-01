@@ -1,15 +1,15 @@
 .container-sidebar{
     width: 40vh;
     height: 100vh;
-    background-image: linear-gradient( #001c4a, #001940, #001735, #01132b, #010e21);    display: flex;
+    background-color: rgba(0,0,0,0.4);    
+    border-right: 1px solid white;
+
+    display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    
-    border-right: 1px solid black;
-    box-shadow: 10px 10px 5px #aaaaaa;
-}
 
+}
 
 .aboutme-sidebar{
     display: flex;

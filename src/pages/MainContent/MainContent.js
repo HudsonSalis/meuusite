@@ -8,9 +8,17 @@ const MainContent = () => {
 
 
     return (
-        <div className="main-content">
-            <ParticlesBackground />
-        </div>
+        <section className="container-main-content">
+            <div className="particles-container">
+                <ParticlesBackground />
+            </div>
+            <div className="title-skills">
+                <h1>Main Skills</h1>
+            </div>
+
+        </section>
+      
+        
     )
 }
 
