@@ -1,5 +1,9 @@
 
-.container-main-content {
+.container-final {
     display: flex;
     flex-direction: row;
+    min-width: 100vh;
+    height: 100vh;
+   
+    
 }

@@ -10,7 +10,7 @@ import "./style.css";
 const SideBarMain = () => {
 
     return (
-        <div>
+        <>
             <div className="container-sidebar">
                 <div className="aboutme-sidebar">
                     <div className="myphoto-sidebar">
@@ -47,7 +47,7 @@ const SideBarMain = () => {
                     </ul>
                 </nav>
             </div>
-        </div>
+        </>
     )
 
 }
