@@ -2,6 +2,7 @@ import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 import React from "react";
 import particleOptions from "./particle";
+import "./style.css";
 
 
 const Particle = () => {

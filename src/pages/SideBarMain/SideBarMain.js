@@ -1,6 +1,7 @@
 import React from "react";
 import SideBarMain from "../../components/SideBar/SideBarMain";
-import MainContent from "../MainContent/MainContent";
+import MainContent from "../../components/MainContent/MainContent";
+
 import "./style.css";
 
 const SideBarMainPage = () => {

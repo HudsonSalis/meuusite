@@ -30,7 +30,9 @@ const SideBarMain = () => {
                 
                         <li className="opcoes-sidebar">
                             <i className="fa-brands fa-github"></i>
-                            <span className="links-opcoes-sidebar">Linkedin</span>
+                            <span className="links-opcoes-sidebar">
+                                <a href="https://www.google.com.br/" target="_blank">Linkedin</a>
+                            </span>
                         </li>
                         <li className="opcoes-sidebar">
                             <i className="fa-brands fa-linkedin"></i>
@@ -42,7 +44,7 @@ const SideBarMain = () => {
                         </li>
                         <li className="opcoes-sidebar">
                             <i className="fa-solid fa-comment"></i>
-                            <span  className="links-opcoes-sidebar">Aboute Me</span>
+                            <span  className="links-opcoes-sidebar">About Me</span>
                         </li>
                     </ul>
                 </nav>

@@ -1,8 +1,7 @@
 import React from "react";
 import "./style.css"
 //import ParticlesBackground from "../../components/Particles-Background";
-import Particle from "../../components/Particles/particle-config";
-
+import Particle from "../Particles/particle-config";
 
 
 const MainContent = () => {
@@ -16,6 +15,9 @@ const MainContent = () => {
           
             <div className="container-myskills">
                 <div className="container-aptidoes">
+                    <div className="title-mainSkills">
+                        <h1>Main Skills</h1>
+                    </div>
                     <div className="container-skills">
                         <div className="skills-react">React</div>
                         <div className="skills-react">JavaScript / TypeScript</div>
