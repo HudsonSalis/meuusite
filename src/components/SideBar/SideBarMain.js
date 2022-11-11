@@ -20,6 +20,11 @@ const SideBarMain = () => {
                     <div className="mydesc">
                         <p className="myname">Hudson Salis Evangelista</p>
                         <p className="mycourse">Análise e Desenvolvimento de Sistemas</p>
+                        <div className="extra">
+                            <div className="line"></div>
+                            <div className="ball"><i className="fa-solid fa-circle"></i></div>
+                            <div className="line"> </div>
+                        </div>
                     </div>
                     
 

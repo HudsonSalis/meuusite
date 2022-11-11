@@ -35,6 +35,23 @@
     font-size: 20px;
 }
 
+.extra{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 25px;
+    width: 100%;
+    align-items: center;
+}
+.line{
+    width: 35%;
+    border-bottom: 1px solid white;
+}
+.ball{
+ 
+    top: -30px;
+}
+
 nav {
     text-align: center;
 }

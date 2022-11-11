@@ -5,18 +5,19 @@
     max-height: 100vh;
     display: flex;
     padding: 20px;
- 
+    
+    z-index: 100;
  
  }
  
  
  .container-myskills{
-     min-width: 100%;
+    width: 100%;
+     min-height: 90%;
      background-color: rgba(23, 1, 78,0.7);
-     display: flex;
-     justify-content: center;
-     flex-direction: column;
-     align-items: center;
+     padding: 30px;
+     overflow: scroll;
+  
  }
  
  
@@ -142,4 +143,29 @@
             0 0 2.8rem #fff,
             inset 0 0 1.3rem #fff; 
         }
+ }
+
+
+
+ .main-bloco{
+    display: flex;
+    flex-direction: column;
+    color:  white;
+    
+
+    width: 100%;
+
+ }
+ .main-bloco-option{
+
+    border: 1px solid white;
+    margin-bottom: 25px;
+    padding: 15px;
+ }
+
+
+ .tecnology{
+    background-color: red;
+    width: 250px;
+    cursor: pointer;
  }
