@@ -14,7 +14,7 @@ const SideBarMain = () => {
             <div className="container-sidebar">
                 <div className="aboutme-sidebar">
                     <div className="myphoto-sidebar">
-                        <img src={myphoto} alt="Minha Foto" width={100} height={100}></img>
+                        <img src={"heh"} alt="Minha Foto" width={100} height={100}></img>
                     </div>
 
                     <div className="mydesc">
